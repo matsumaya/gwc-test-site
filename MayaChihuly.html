@@ -16,6 +16,20 @@
         float:left;
         padding:5px;
 }
+    div#left {
+        width:15%;
+        height:700px;
+        background-color:plum;
+        float:left;
+        text-align:center;
+}
+    div#right {
+        margin-left:15%;
+        height:700px;
+        background-color:plum;
+        float:right;
+        text-align:center;
+}
     #nav {
         background-color:mediumorchid;
         font-size:120%;
@@ -28,22 +42,28 @@
 }
     </style>
     </head>
-    <div id="header">
-        <h1 style="font-family:trebuchetms; font-size:300%;">PHOTOGRAPHS</h1>
-    </div>
-    <div id="nav">
-        <a href="Maya.html">Home</a><br>
-        <a href="MayaDowntown.html">Downtown Seattle</a><br>
-        <a href="#CollegeVisits">College Visits</a><br>
-        <a href="#Nature">Nature</a><br>
-        <a href="MayaChihuly.html">Chihuly Exhibit</a><br>
-    </div>
-    <div id="section">
-        <img src="images/20140801_115428.jpg" alt="Lights" style="width:400px;height:550px">
-        <p>Glass and light exhibit</p>
-        <img src="images/20140801_120129.jpg" alt="Ceiling" style="width:400px;height:550px;">
-        <p>The classic Chihuly glass ceiling</p>
-        <img src="images/20140801_115652.jpg" alt="BlueSculpture" style="width:400px;height:550px;">
-        <p>A large blue glass sculpture</p>
-    </div>
+    <body style="background-color:plum;">
+        <div id="header">
+            <h1 style="font-family:trebuchetms; font-size:300%;">PHOTOGRAPHS</h1>
+        </div>
+        <div id="nav">
+            <a href="Maya.html">Home</a><br>
+            <a href="MayaDowntown.html">Downtown Seattle</a><br>
+            <a href="#CollegeVisits">College Visits</a><br>
+            <a href="#Nature">Nature</a><br>
+            <a href="MayaChihuly.html">Chihuly Exhibit</a><br>
+        </div>
+        <section>
+            <div id="left">
+                <img src="images/20140801_115428.jpg" alt="Lights" style="width:400px;height:550px">
+                <p>Glass and light exhibit</p>
+                <img src="images/20140801_115652.jpg" alt="BlueSculpture" style="width:400px;height:550px;">
+            <p>A large blue glass sculpture</p>
+            </div>
+            <div id="left">
+                <img src="images/20140801_120129.jpg" alt="Ceiling" style="width:400px;height:550px;">
+                <p>The classic Chihuly glass ceiling</p>
+            </div>
+        </section>
+    </body>
 </html>
